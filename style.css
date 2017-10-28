@@ -1,0 +1,27 @@
+
+
+.main{
+    border: 10px solid darkblue;
+    width: 360px;
+    height: 360px;
+    -webkit-box-shadow: 12px -9px 23px -2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px -9px 23px -2px rgba(0,0,0,0.6);
+    box-shadow: 12px -9px 23px -2px rgba(0,0,0,0.6);
+}
+
+
+.main .column div{
+    border: 10px solid darkblue;    
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    background-size: contain;
+}
+
+
+.selected{
+    background-image: url("alphorn.jpg")
+}
+
+
